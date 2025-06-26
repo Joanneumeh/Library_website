@@ -1,0 +1,112 @@
+body {
+    background-color: gainsboro;
+}
+
+#content {
+    background-color: gainsboro;
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+header > h1 {
+    color: rgb(53, 53, 53);
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+  
+html {
+    scroll-behavior: smooth;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: sticky;
+}
+
+header li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#account {
+    float: right;
+}
+
+header li a {
+    display: inline-block;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: .14em;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+header li a:hover {
+    background-color: black;
+}
+
+nav {
+    min-height: 60px;
+    background-color: rgb(53, 53, 53);
+    text-align: right;
+    padding-right: 20px;
+}
+
+main {
+    padding: 15px;
+    display: grid;
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    letter-spacing: .14em;
+    line-height: 1.5em;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+}
+
+footer > a {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    background: rgb(68, 68, 68);
+    box-shadow: 0 0 10px rgba(0, 0, 0.25);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+footer a:active {
+    background: black;
+}

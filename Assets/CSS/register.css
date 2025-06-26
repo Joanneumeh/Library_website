@@ -1,0 +1,124 @@
+#content {
+    background-color: whitesmoke;
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    padding: 10px 10px;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+}
+
+header > h1 {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+body {
+    background-color: gainsboro;
+    text-align: center;
+}
+
+bottom {
+    padding: 20px;
+}
+
+top {
+    padding: 20px;
+}
+
+#form_label {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type=text]:focus {
+    border: 3px solid rgb(0, 0, 0);
+}
+
+input[type=password]:focus {
+    border: 3px solid rgb(0, 0, 0);
+}
+
+input[type=number]:focus {
+    border: 3px solid rgb(0, 0, 0);
+}
+
+input[type=text] {
+    width: 25%;
+    padding-bottom: 5px; 
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+input[type=number] {
+    width: 25%;
+    padding-bottom: 5px; 
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+input[type=password] {
+    width: 25%;
+    padding-bottom: 5px; 
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#button {
+    background-color: black;
+    width: 100px;
+    border: none;
+    color: whitesmoke;
+    padding: 16px;
+    padding-left: 15px;
+    text-align: center;
+    font-size: 15px;
+    margin: 2px 1px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-left: 20px;
+    
+}
+
+#button:hover {
+    background-color: grey;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    letter-spacing: .14em;
+    line-height: 1.5em;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
+
+a:hover {
+    color: rgb(121, 121, 121);
+}
